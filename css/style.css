@@ -1,55 +1,61 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     list-style: none;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* Estilo para la barra de navegacion */
 
-.navbar{
+.navbar {
     background-color: #F2EBBF;
 }
 
-.logo{
+.logo {
     width: 20vh;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 
-    
+
 }
 
-.item{
+.item {
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-transition: all 0.5s;
-text-align: justify;
+    transition: all 0.5s;
+    text-align: justify;
 }
-.item:hover{
+
+.item:hover {
     font-size: 17px;
     font-weight: 800;
     color: #45322e;
 }
-.navbar-nav .nav-link.active{
-color: #45322e;
-font-weight: 800;}
 
-.navbar-toggler-icon{
-width: 7vh;
-background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388823.png) ;
-background-size: contain;
+.navbar-nav .nav-link.active {
+    color: #45322e;
+    font-weight: 800;
 }
-.navbar-toggler{
+
+.navbar-toggler-icon {
+    width: 7vh;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388823.png);
+    background-size: contain;
+}
+
+.navbar-toggler {
     border-color: black;
 }
 
 
 
 /* Estilos del footer */
-.pie{
+.pie {
     background-color: black;
 }
 
@@ -60,14 +66,17 @@ background-size: contain;
     padding: 20px;
     transition: all 1s;
 }
-.bi:hover{
+
+.bi:hover {
     color: white;
     font-size: 7vh;
 }
-footer h2{
+
+footer h2 {
     color: rgba(255, 255, 255, 0.837);
 }
-footer h3{
+
+footer h3 {
     color: rgba(255, 255, 255, 0.837);
 }
 
@@ -77,20 +86,84 @@ footer a {
     font-size: 15px;
     font-weight: 100;
     line-height: 3;
-    transition: all 1s ;
+    transition: all 1s;
 
 }
+
 footer a:hover {
     font-weight: 700;
     font-size: 20px;
     color: black;
 
 }
-.contacto{
+
+.contacto {
     font-size: 10px;
 }
-.map{
+
+.map {
     width: 100%;
-    height:300px ;
-  
+    height: 300px;
+
+}
+/* Estilo de los botones */
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 10rem;
+    background:black;
+    padding: 10px;
+    margin: 0 100px 25px;
+    overflow: hidden;
+    border-radius: 35px 0 35px 0;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 10px solid #F2EBBF;
+    color: #F2EBBF;
+ 
+ }
+ .btn:hover{
+     background-color: burlywood;
+     color:black;
+     border: 10px solid #F2EBBF;
+ }
+
+
+/* Estilo para el Carousel */
+.carousel-item img {
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 100%;
+}
+
+@media (min-width:1200px) {
+    .carousel-item img {
+        max-height: 500px;
+        min-height: 500px;
+    }
+}
+.carousel-item  h5{
+   
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif Black; 
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #fff; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+.carousel-item p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+}
+@media (min-width:1200px) {
+    .carousel-item  h5{ font-size: 40px; }
+    .carousel-item p{ font-size: 20px;
+
+}
+}
+.aboutusmedia{
+    padding: 30px;
 }
