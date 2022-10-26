@@ -17,7 +17,7 @@
 }
 
 .navbar-brand {
-    font-size: 10px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 
@@ -25,7 +25,7 @@
 }
 
 .item {
-    font-size: 13px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.5s;
     text-align: justify;
@@ -83,7 +83,7 @@ footer h3 {
 footer a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 100;
     line-height: 3;
     transition: all 1s;
@@ -92,7 +92,7 @@ footer a {
 
 footer a:hover {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
     color: black;
 
 }
@@ -106,13 +106,14 @@ footer a:hover {
     height: 300px;
 
 }
+
 /* Estilo de los botones */
-.btn{
+.btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     text-align: center;
     width: 10rem;
-    background:black;
+    background: black;
     padding: 10px;
     margin: 0 100px 25px;
     overflow: hidden;
@@ -121,13 +122,14 @@ footer a:hover {
     -webkit-border-radius: 35px 0px 35px 0px;
     border: 10px solid #F2EBBF;
     color: #F2EBBF;
- 
- }
- .btn:hover{
-     background-color: burlywood;
-     color:black;
-     border: 10px solid #F2EBBF;
- }
+
+}
+
+.btn:hover {
+    background-color: burlywood;
+    color: black;
+    border: 10px solid #F2EBBF;
+}
 
 
 /* Estilo para el Carousel */
@@ -143,27 +145,124 @@ footer a:hover {
         min-height: 500px;
     }
 }
-.carousel-item  h5{
-   
-    text-align: center; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif Black; 
-    font-weight: bold; 
-    font-size: 20px; 
-    color: #fff; 
+
+.carousel-item h5 {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif Black;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
-.carousel-item p{
+
+.carousel-item p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
     background-color: black;
 }
+
 @media (min-width:1200px) {
-    .carousel-item  h5{ font-size: 40px; }
-    .carousel-item p{ font-size: 20px;
+    .carousel-item h5 {
+        font-size: 80px;
+    }
+
+    .carousel-item p {
+        font-size: 40px;
+
+    }
+}
+
+.aboutusmedia {
+    padding: 30px;
+}
+
+/* Estilos para los textos de las portadas */
+.card1-title {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif Black;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.card1-text {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+@media (min-width:1200px) {
+    .card1-title {
+        font-size: 100px;
+    }
+}
+@media (min-width:1200px) {
+    .card1-text{
+        font-size: 30px;
+    }
+    
+}
+/* Seteo de la portada */
+.card-img{
+    max-height: 40vh;
+}
+.titulo-sabores{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
 
 }
+
+/* Seteo de las tarjetas de sabores */
+.tarjeta__imagen {
+    width: 27rem;
+    height: 20rem;
+    box-shadow: 10px 20px 10px;
+    transition: all 1s;
 }
-.aboutusmedia{
-    padding: 30px;
+.tarjeta__imagen:hover{
+    height: 25rem;
+    width: 30rem;
+}
+
+.tarjeta__texto {
+    font-size: 30px;
+    width: 27rem;
+    text-align: justify;
+    line-height: 1;
+    font-style: italic;
+    padding: 10px;
+   
+}
+
+.tarjeta__titulo {
+    font-size: 40px;
+    text-align: center;
+    width: 27rem;
+    font-weight: 3000;
+    padding-top: 30px;
+   text-decoration: underline;
+}
+
+.tarjeta{
+    border-radius: 20%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 15vw;
+
+    
+}
+@media (min-width:1200px) {
+    .tarjeta{
+        padding-left: 9vw;
+    }
+    
 }
