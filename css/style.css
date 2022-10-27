@@ -17,7 +17,7 @@
 }
 
 
-.navbar-brand h1{
+.navbar-brand {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -166,7 +166,7 @@ footer a:hover {
 
 @media (min-width:1200px) {
     .carousel-item h5 {
-        font-size: 120px;
+        font-size: 90px;
     }
 
     .carousel-item p {
