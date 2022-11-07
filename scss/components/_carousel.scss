@@ -10,13 +10,13 @@
     &-item h5 {
         @extend %img-carousel-title;
         @include mq(1200px){
-            font-size: 50px;
+            font-size: 60px;
          }
         }
     &-item p {
         @extend %img-carousel-p;
         @include mq(1200px){
-            font-size: 30px;
+            font-size: 40px;
          }
 
     

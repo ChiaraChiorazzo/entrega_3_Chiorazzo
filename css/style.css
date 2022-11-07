@@ -48,13 +48,13 @@ footer .pie {
 }
 footer .bi {
   color: rgba(245, 245, 245, 0.531);
-  font-size: 5vh;
+  font-size: 3vh;
   padding: 20px;
   transition: all 0.5s;
 }
 footer .bi:hover {
   color: white;
-  font-size: 7vh;
+  font-size: 4vh;
 }
 footer h2 {
   color: rgba(255, 255, 255, 0.837);
@@ -154,12 +154,12 @@ footer .map {
 }
 @media (min-width: 1200px) {
   .carousel-item h5 {
-    font-size: 50px;
+    font-size: 60px;
   }
 }
 @media (min-width: 1200px) {
   .carousel-item p {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
