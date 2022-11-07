@@ -1,0 +1,79 @@
+/* Seteo tarjetas con información */
+.tarjeta{
+    border-radius: 20%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+   @include dflex (column, center, center);
+   &__imagen{
+    width: 27rem;
+    height: 20rem;
+    box-shadow: 10px 20px 10px;
+    transition: all 1s;
+   }
+   &__imagen:hover {
+    transform: scale(1.2);
+}
+&__texto{
+    font-size: 20px;
+    width: 27rem;
+    text-align: justify;
+    line-height: 1;
+    font-style: italic;
+    padding: 10px;
+}
+&__titulo {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    width: 27rem;
+    font-weight: 3000;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+   
+}
+/* Seteo tarjetas con boton  */
+
+.cardprod{
+    box-shadow: 0px 4px 20px;
+    min-width: 600px;
+    max-width: 600px;
+    border-radius: 15px;
+    height: 650px;
+    @include dflex (column, space-between, center);
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    &-img {
+        width: 100%;
+        height: 55%;
+    }
+    &-title{
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        padding: 10px;
+        text-align: center;
+    
+    }
+    &-text{
+        font-size: 30px;
+        font-family: $font-family;
+        font-weight: 600;
+        padding: 10px;
+        text-align: center;
+    }}
+
+    .slider {
+        padding: 15px;
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        @include mq(1200px){
+            flex-wrap: wrap;
+            justify-content: space-between;
+         }
+    }
+
+

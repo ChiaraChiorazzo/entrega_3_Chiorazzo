@@ -1,41 +1,41 @@
 header {
     background-color: $color-primario;
 
-    & .logo {
+     .logo {
         width: 20vh
     }
 
-    & h1 {
-        font-size: $font-size-header;
+     h1 {
+        font-size: $font-size-resaltado;
         font-family: $font-family;
         font-weight: bold;
     }
-    & .item {
-        font-size: $font-size-header;
+    .item {
+        font-size: $font-size-resaltado;
         font-family: $font-family;
-        transition:  all 0.3s;
+        transition:  $transition;
         text-align: justify;
         
     }
 
-    & .item:hover {
+     .item:hover {
         transform: scale(1.1,2);
         color: $font-color-hover;
         font-weight: 800;
     
     }
-   & .navbar-nav .nav-link.active {
+    .navbar-nav .nav-link.active {
     color:$font-color-hover;
     font-weight: 800;
    }
-   & .navbar-toggler {
+    .navbar-toggler {
     border-color: black;
     border-radius: 10%;
      }
-   & .navbar-toggler-icon {
+    .navbar-toggler-icon {
     width: 7vh;
     background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388823.png);
     background-size: contain;
    }
-
+  
 }
