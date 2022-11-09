@@ -1,6 +1,7 @@
+@charset "UTF-8";
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0px;
+  padding: 0px;
   list-style: none;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -162,10 +163,6 @@ footer .map {
   }
 }
 
-.aboutusmedia {
-  padding: 30px;
-}
-
 @media (min-width: 1200px) {
   .card1-title {
     font-size: 60px;
@@ -305,6 +302,26 @@ form h3 {
   font-size: 40px;
   color: black;
   font-weight: 600;
+}
+
+.aboutusmedia {
+  padding: 30px;
+}
+
+.texto-index {
+  text-align: justify;
+}
+
+.texto-index::first-letter {
+  float: left;
+  font-size: 1.5em;
+  line-height: 1;
+  margin: 0.2rem;
+  margin-right: 0.6rem;
+  padding: 1rem;
+  background: #b68e56;
+  box-shadow: 0 0 0 0.2rem #b68e56;
+  border: 0.2rem solid black;
 }
 
 .TextoEvento {
