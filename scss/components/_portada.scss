@@ -10,9 +10,9 @@
 &-text {
     @extend %texto-img-portada;
     @include mq(1200px){
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
-        padding: 50px;
+        padding: 40px;
 }
 
 }

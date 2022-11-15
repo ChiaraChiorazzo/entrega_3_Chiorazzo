@@ -172,9 +172,9 @@ footer .map {
 }
 @media (min-width: 1200px) {
   .card1-text {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
   }
 }
 .card1-img {
