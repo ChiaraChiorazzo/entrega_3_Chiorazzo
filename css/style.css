@@ -14,12 +14,12 @@ header .logo {
   width: 20vh;
 }
 header h1 {
-  font-size: 20px;
+  font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 header .item {
-  font-size: 20px;
+  font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   transition: all 0.5s;
   text-align: justify;
@@ -65,7 +65,7 @@ footer h3 {
 footer a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 100;
   line-height: 3;
   transition: transform all 1s;
@@ -82,7 +82,7 @@ footer .map {
 
 .btn {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   width: 10rem;
   background: black;
@@ -130,7 +130,7 @@ footer .map {
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 15px;
   letter-spacing: 0.15em;
   color: #fff;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
@@ -141,7 +141,7 @@ footer .map {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   letter-spacing: 0.15em;
-  font-size: 20px;
+  font-size: 10px;
   color: white;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
@@ -189,7 +189,7 @@ footer .map {
 
 .titulo-principal {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 60px;
+  font-size: 33px;
   padding: 80px 50px;
   text-align: center;
   text-transform: uppercase;
@@ -221,17 +221,17 @@ footer .map {
 }
 .tarjeta__texto {
   font-size: 20px;
-  width: 27rem;
+  width: 22rem;
   text-align: justify;
   line-height: 1;
   font-style: italic;
-  padding: 10px;
+  padding: 20px;
 }
 .tarjeta__titulo {
   font-size: 30px;
   text-align: center;
   font-weight: 800;
-  width: 27rem;
+  width: 25rem;
   font-weight: 3000;
   padding-top: 30px;
   text-decoration: underline;
@@ -240,10 +240,10 @@ footer .map {
 /* Seteo tarjetas con boton  */
 .cardprod {
   box-shadow: 0px 4px 20px;
-  min-width: 600px;
-  max-width: 600px;
+  min-width: 400px;
+  max-width: 400px;
   border-radius: 15px;
-  height: 650px;
+  height: 450px;
   Display: flex;
   Flex-direction: column;
   Justify-content: space-between;
@@ -257,14 +257,14 @@ footer .map {
   height: 55%;
 }
 .cardprod-title {
-  font-size: 50px;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   padding: 10px;
   text-align: center;
 }
 .cardprod-text {
-  font-size: 30px;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   padding: 10px;
@@ -285,7 +285,7 @@ footer .map {
 }
 
 form {
-  font-size: 30px;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   padding-top: 20px;
@@ -294,12 +294,12 @@ form {
   border: black 5px solid;
   width: 100%;
   padding: 30px;
-  font-size: 30px;
+  font-size: 20px;
   background-color: white;
   margin: 20px 20px;
 }
 form h3 {
-  font-size: 40px;
+  font-size: 30px;
   color: black;
   font-weight: 600;
 }
@@ -326,7 +326,7 @@ form h3 {
 
 .TextoEvento {
   text-align: justify;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 300;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
